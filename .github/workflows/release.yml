@@ -5,7 +5,7 @@ on:
     tags:
       - "*"
 
-job:
+jobs:
   release:
     runs-on: ubuntu-latest
     steps:
