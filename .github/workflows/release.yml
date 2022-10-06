@@ -14,6 +14,8 @@ jobs:
       - run: sudo apt-get install libmagick++-dev
       - run: ./configure
       - run: make
-      - run: tree .
-      # - uses: yuezk/publish-ppa-package@main
-      
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            ktech
+            krane
